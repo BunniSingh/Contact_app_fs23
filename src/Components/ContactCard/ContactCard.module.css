@@ -1,0 +1,27 @@
+.user-icon{
+    width: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.btn{
+    
+}
+
+.icons{
+    margin: 0 5px;
+    font-size: 20px;
+    color: rgba(137, 43, 226, 0.627);
+    cursor: pointer;
+}
+
+.icons:nth-child(1):hover{
+    color: blue;
+}
+.icons:nth-child(2):hover{
+    color: red;
+}
+.icons:nth-child(3):hover{
+    color: green;
+}

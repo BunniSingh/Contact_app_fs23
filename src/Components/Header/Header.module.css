@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgb(225, 233, 239);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.user-icon{
+    width: 30px;
+    opacity: 0.7;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+
+.search{
+    padding: 8px;
+    outline: none;
+    border: 1px solid rgba(137, 43, 226, 0.789);
+    border-radius: 5px;
+}
