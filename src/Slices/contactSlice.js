@@ -3,11 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initState = {
     contactList: [
-        {
-            name: 'Banti',
-            surname: 'Singh',
-            mobile: '9113169140'
-        }
+        
     ],
     editContactId: '',
     searchContactQuery: ''
