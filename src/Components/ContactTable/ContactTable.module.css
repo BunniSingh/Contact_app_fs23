@@ -1,11 +1,11 @@
-.table-container{
+.table-container {
     flex: 2.3;
     background-color: aliceblue;
-    
     padding: 5px;
+    position: relative;
 }
 
-.table{
+.table {
     border-collapse: collapse;
     width: 100%;
     text-align: center;
@@ -17,11 +17,11 @@
     padding: 6px;
 }
 
-.table td img{
+.table td img {
     margin-top: 5px;
 }
 
-.table td{
+.table td {
     padding: 5px 10px;
     border: 1px solid rgba(0, 0, 0, 0.227);
 }
@@ -31,3 +31,10 @@
 
 }
 
+.error {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+}

@@ -26,10 +26,19 @@ const ContactTable = () => {
                     </tr>
                 </thead>
                 <tbody>
+
                     {
+                        showContactList.length > 0 ? 
+                        showContactList
+                            .map(contact => <ContactCard key={contact.id} {...contact} />) :
+                        <h3 className={styles.error}> No Contact in data</h3>
+                    }
+
+
+                    {/* {
                         showContactList
                             .map(contact => <ContactCard key={contact.id} {...contact} />)
-                    }
+                    } */}
 
                 </tbody>
             </table>
